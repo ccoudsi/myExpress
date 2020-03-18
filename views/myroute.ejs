@@ -1,0 +1,13 @@
+<%- include ('partials/header') -%>
+
+<h1>The variable you entered is: <%= myVar.toUpperCase() %></h1>
+
+<% if(myVar.toLowerCase() === "charles"){ %>
+<p>Good Choice !!!</p>
+<% } else { %>
+<p>You should said charles</p>
+<% } %>
+
+<p>P.S. this is the "myroute.ejs" file!</p>
+
+<%- include ('partials/footer') -%>
